@@ -1,0 +1,46 @@
+{
+  "models": {
+    "providers": {
+      "9router": {
+        "baseUrl": "https://protagrouter.squareweb.app/api/v1",
+        "apiKey": "clawsec_ninja_2026",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "protagnix",
+            "name": "protagnix"
+          }
+        ]
+      }
+    }
+  },
+  "gateway": {
+    "mode": "cloud",
+    "auth": {
+      "mode": "token",
+      "token": "${OPENCLAW_GATEWAY_TOKEN}"
+    },
+    "bind": "lan",
+    "port": 80
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "9router/protagnix"
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "ollama": {
+        "enabled": false
+      }
+    }
+  },
+  "channels": {
+    "discord": {
+      "enabled": true,
+      "token": "${DISCORD_BOT_TOKEN}"
+    }
+  }
+}
