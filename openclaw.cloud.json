@@ -36,11 +36,5 @@
         "enabled": false
       }
     }
-  },
-  "channels": {
-    "discord": {
-      "enabled": true,
-      "token": "${DISCORD_BOT_TOKEN}"
-    }
   }
 }
