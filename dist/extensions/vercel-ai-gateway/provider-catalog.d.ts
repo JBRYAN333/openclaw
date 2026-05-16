@@ -1,0 +1,2 @@
+import { n as buildVercelAiGatewayProvider, t as buildStaticVercelAiGatewayProvider } from "../../provider-catalog-CB9XKqdu.js";
+export { buildStaticVercelAiGatewayProvider, buildVercelAiGatewayProvider };
