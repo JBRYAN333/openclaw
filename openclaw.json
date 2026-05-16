@@ -15,7 +15,7 @@
     }
   },
   "gateway": {
-    "mode": "remote",
+    "mode": "local",
     "auth": {
       "mode": "token",
       "token": "${OPENCLAW_GATEWAY_TOKEN}"
