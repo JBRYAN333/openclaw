@@ -21,7 +21,13 @@
       "token": "${OPENCLAW_GATEWAY_TOKEN}"
     },
     "bind": "lan",
-    "port": 80
+    "port": 80,
+    "controlUi": {
+      "allowedOrigins": [
+        "https://clawsec.squareweb.app",
+        "http://clawsec.squareweb.app"
+      ]
+    }
   },
   "agents": {
     "defaults": {
