@@ -26,7 +26,8 @@
       "allowedOrigins": [
         "https://clawsec.squareweb.app",
         "http://clawsec.squareweb.app"
-      ]
+      ],
+      "dangerouslyDisableDeviceAuth": true
     }
   },
   "agents": {
