@@ -15,7 +15,7 @@
     }
   },
   "gateway": {
-    "mode": "cloud",
+    "mode": "remote",
     "auth": {
       "mode": "token",
       "token": "${OPENCLAW_GATEWAY_TOKEN}"
